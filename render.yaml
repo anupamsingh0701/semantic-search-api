@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: semantic-search-api
+    env: docker
+    plan: free
+    healthCheckPath: /health
+    autoDeploy: true
